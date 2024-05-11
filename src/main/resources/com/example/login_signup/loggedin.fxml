@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Polyline?>
+
+<AnchorPane fx:id="adminap" prefHeight="400.0" prefWidth="600.0" stylesheets="@cssStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login_signup.LoggedInController">
+   <children>
+      <Button fx:id="button_profile" layoutX="300.0" layoutY="191.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="166.0" text="Profile" />
+      <Button fx:id="button_searchjob" layoutX="300.0" layoutY="255.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="166.0" text="Search job" />
+      <Button fx:id="button_blogpost" layoutX="300.0" layoutY="127.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="166.0" text="Write blog post" />
+      <AnchorPane fx:id="addcompanysideap" layoutY="-4.0" prefHeight="423.0" prefWidth="207.0" stylesheets="@cssStyle.css">
+         <children>
+            <Label fx:id="addcompanylabel" layoutX="17.0" layoutY="187.0" prefHeight="34.0" prefWidth="166.0" text="WELCOME" />
+            <Label fx:id="addcompanylabel" layoutX="62.0" layoutY="221.0" prefHeight="34.0" prefWidth="84.0" text="PAGE" />
+            <Button fx:id="button_admin" layoutX="58.0" layoutY="113.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Job Seeker" />
+            <Polyline layoutX="204.0" layoutY="391.0" opacity="0.46" points="-50.0, -40.0, -5.666656494140625, -19.999984741210938, -75.0, 3.33331298828125, -50.0, -40.0" strokeType="INSIDE" strokeWidth="0.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.2519493103027344" green="0.8684210777282715" blue="0.7862248420715332" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Polyline>
+            <Polyline layoutX="61.0" layoutY="318.0" opacity="0.64" points="-61.0, -30.66668701171875, -21.666667938232422, 3.33331298828125, -75.0, 3.33331298828125, -61.0, -30.66668701171875" strokeType="INSIDE" strokeWidth="0.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.2519493103027344" green="0.8684210777282715" blue="0.7862248420715332" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Polyline>
+            <Polyline layoutX="207.0" layoutY="179.0" opacity="0.48" points="-50.0, -40.0, -9.66668701171875, -39.99998474121094, -60.333343505859375, 1.0000152587890625, -50.0, -40.0" strokeType="INSIDE" strokeWidth="0.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.2519493103027344" green="0.8684210777282715" blue="0.7862248420715332" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Polyline>
+            <Polyline layoutX="46.0" layoutY="158.0" opacity="0.51" points="-57.0, -32.333335876464844, -5.666656494140625, -19.999984741210938, -65.66666412353516, 14.000015258789062, -57.0, -32.333335876464844" strokeType="INSIDE" strokeWidth="0.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.2519493103027344" green="0.8684210777282715" blue="0.7862248420715332" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Polyline>
+            <Polyline layoutX="169.0" layoutY="47.0" opacity="0.64" points="-50.0, -40.0, -5.666656494140625, -19.999984741210938, -75.0, 3.33331298828125, -50.0, -40.0" strokeType="INSIDE" strokeWidth="0.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.2519493103027344" green="0.8684210777282715" blue="0.7862248420715332" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Polyline>
+            <ImageView fitHeight="67.0" fitWidth="67.0" layoutX="66.0" layoutY="36.0" pickOnBounds="true">
+               <image>
+                  <Image url="@jobseeker1.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="button_logout" alignment="BASELINE_RIGHT" contentDisplay="BOTTOM" layoutX="58.0" layoutY="354.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="34.0" prefWidth="77.0" text="Log out!" textAlignment="CENTER" />
+         </children>
+      </AnchorPane>
+<!--      <Label fx:id="label_fav_channel" layoutX="243.0" layoutY="159.0" text="your favourite balsal is " />-->
+   </children>
+</AnchorPane>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="signUpap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="600.0" stylesheets="@cssStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login_signup.EmployerSignUpController">
+   <children>
+      <Label layoutX="254.0" layoutY="71.0" text="Email">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="254.0" layoutY="104.0" text="Password ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_username" layoutX="357.0" layoutY="67.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="312.0" layoutY="320.0" text="Already a member?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_sign_up" layoutX="311.0" layoutY="267.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" text="Sign Up!" />
+      <Button fx:id="button_login" layoutX="311.0" layoutY="344.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" text="Login!" />
+      <PasswordField fx:id="pf_password" layoutX="357.0" layoutY="100.0" />
+      <Label layoutX="254.0" layoutY="142.0" text="Company Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="176.0" text="Company Code">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pf_company_code" layoutX="357.0" layoutY="172.0" />
+      <TextField fx:id="tf_company_name" layoutX="357.0" layoutY="138.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="256.0" layoutY="218.0" text="Designation" />
+      <TextField fx:id="tf_designation" layoutX="357.0" layoutY="214.0" prefHeight="25.0" prefWidth="149.0" />
+      <AnchorPane fx:id="addcompanysideap" layoutY="-9.0" prefHeight="411.0" prefWidth="200.0" stylesheets="@cssStyle.css">
+         <children>
+            <Label fx:id="addcompanylabel" layoutX="39.0" layoutY="189.0" prefHeight="34.0" prefWidth="122.0" text="SIGN UP" />
+            <Label fx:id="addcompanylabel" layoutX="58.0" layoutY="225.0" prefHeight="34.0" prefWidth="84.0" text="PAGE" />
+            <Button fx:id="button_admin" layoutX="61.0" layoutY="113.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" text="Employer" />
+            <Polyline layoutX="204.0" layoutY="391.0" opacity="0.46" points="-50.0, -40.0, -5.666656494140625, -19.999984741210938, -75.0, 3.33331298828125, -50.0, -40.0" strokeType="INSIDE" strokeWidth="0.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.2519493103027344" green="0.8684210777282715" blue="0.7862248420715332" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Polyline>
+            <Polyline layoutX="61.0" layoutY="318.0" opacity="0.64" points="-61.0, -30.66668701171875, -21.666667938232422, 3.33331298828125, -75.0, 3.33331298828125, -61.0, -30.66668701171875" strokeType="INSIDE" strokeWidth="0.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.2519493103027344" green="0.8684210777282715" blue="0.7862248420715332" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Polyline>
+            <Polyline layoutX="207.0" layoutY="179.0" opacity="0.48" points="-50.0, -40.0, -9.66668701171875, -39.99998474121094, -60.333343505859375, 1.0000152587890625, -50.0, -40.0" strokeType="INSIDE" strokeWidth="0.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.2519493103027344" green="0.8684210777282715" blue="0.7862248420715332" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Polyline>
+            <Polyline layoutX="46.0" layoutY="158.0" opacity="0.51" points="-57.0, -32.333335876464844, -5.666656494140625, -19.999984741210938, -65.66666412353516, 14.000015258789062, -57.0, -32.333335876464844" strokeType="INSIDE" strokeWidth="0.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.2519493103027344" green="0.8684210777282715" blue="0.7862248420715332" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Polyline>
+            <Polyline layoutX="169.0" layoutY="47.0" opacity="0.64" points="-50.0, -40.0, -5.666656494140625, -19.999984741210938, -75.0, 3.33331298828125, -50.0, -40.0" strokeType="INSIDE" strokeWidth="0.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.2519493103027344" green="0.8684210777282715" blue="0.7862248420715332" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Polyline>
+            <ImageView fitHeight="67.0" fitWidth="67.0" layoutX="66.0" layoutY="36.0" pickOnBounds="true">
+               <image>
+                  <Image url="@employer.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
