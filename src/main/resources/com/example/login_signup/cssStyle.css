@@ -1,0 +1,629 @@
+#blogpostap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+#loginap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+#jobseekerloginap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+#jobpostap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+#companylistap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+#employerwelcomeap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+#adminwelcomeap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+#confirmmainap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+#employerfirstpageap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+#tv_jobtable
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+#joblistap
+{
+    -fx-background-color: "#073d70";
+}
+#loggedinSidePanel
+{
+    -fx-background-color:"#232E71";
+}
+
+#welcomeap
+{
+    -fx-background-color: linear-gradient(to bottom, #339ca1,#4576c3);
+    -fx-background-radius: 12px;
+}
+#welcomelabel
+{
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: "white";
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+}
+#searchlabel
+{
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: "white";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+#adminap1
+{
+    /*-fx-background-color:"#4576c3";*/
+    -fx-background-radius: 15px;
+    -fx-background-color: linear-gradient(to bottom,#4bd1d8, #368cdc);
+}
+#adminap
+{
+    /*-fx-background-color:"#4576c3";*/
+    -fx-background-radius: 15px;
+    -fx-background-color: linear-gradient(to bottom,#4bd1d8, #368cdc);
+}
+
+#employerap
+{
+    /*-fx-background-color:"#4576c3";*/
+    -fx-background-radius: 15px;
+    -fx-background-color: linear-gradient(to bottom,#4bd1d8, #368cdc);
+}
+
+#jobseekerap
+{
+    /*-fx-background-color:"#4576c3";*/
+    -fx-background-radius: 15px;
+    -fx-background-color: linear-gradient(to bottom,#4bd1d8, #368cdc);
+}
+
+#Questionap
+{
+    -fx-background-color:"#fcd2ff";
+    -fx-background-radius: 13px;
+}
+
+#questionText
+{
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 17;
+    -fx-font-weight: bold;
+}
+
+#sidepanel
+{
+    -fx-background-color:"#232E71";
+}
+#firstpageap
+{
+    /*-fx-background-color:"#7ca6e9";*/
+    -fx-background-color: linear-gradient(to bottom,#073d70, #7ca6e9);
+}
+
+#firstpage_sidepanel
+{
+    -fx-background-color:"#232E71";
+}
+
+#signuminnerap
+{
+    -fx-background-color:"#C5D5F2";
+    -fx-background-radius: 15px;
+    -fx-border-color: "white";
+    -fx-border-width: 1.5px 1.5px 1.5px 1.5px;
+    -fx-border-radius: 14px;
+}
+#loggedinap
+{
+    -fx-background-color:"#C5D5F2";
+}
+
+#signUpap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+
+#registerlabel
+{
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 13;
+    -fx-alignment: center;
+}
+
+#demoap1
+{
+    -fx-background-color:"#8086AD";
+    -fx-background-radius: 15px;
+}
+
+#demoap2
+{
+    -fx-background-color:"#8086AD";
+    -fx-background-radius: 15px;
+}
+
+#demoap3
+{
+    -fx-background-color:"#8086AD";
+    -fx-background-radius: 15px;
+}
+
+#demoap4
+{
+    -fx-background-color:"#8086AD";
+    -fx-background-radius: 15px;
+}
+
+#it_jobland1
+{
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 14;
+    -fx-alignment: center;
+}
+
+#button_blogpost
+{
+    -fx-background-color:"#C5D5F2";
+    -fx-font-family: "Arial Black";
+}
+
+#employee_button
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+
+#jobseeker_button
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+#button_admin
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+#admin_button
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+#button_admin:hover
+{
+    -fx-background-color:"#a0eff3";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+
+#jobseeker_button:hover
+{
+    -fx-background-color:"#a0eff3";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+
+#employee_button:hover
+{
+    -fx-background-color:"#a0eff3";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+
+#employer_button:hover
+{
+    -fx-background-color:"#a0eff3";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+
+#employer_button
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+
+#button_profile
+{
+    -fx-background-color:"#C5D5F2";
+    -fx-font-family: "Arial Black";
+}
+
+#button_companylist
+{
+    -fx-background-color:"#C5D5F2";
+    -fx-font-family: "Arial Black";
+}
+
+#button_searchjob
+{
+    -fx-background-color:"#C5D5F2";
+    -fx-font-family: "Arial Black";
+}
+
+#label_welcome
+{
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 12;
+    -fx-alignment: center;
+}
+#button_logout
+{
+    -fx-font-family: "Arial Black";
+    -fx-text-alignment: center;
+    -fx-background-color:"#C5D5F2";
+}
+#labelsearch
+{
+    -fx-text-fill: "white";
+}
+#loginsidepanel
+{
+    -fx-background-color:"#232E71";
+}
+#introap
+{
+    -fx-background-color:"white";
+    -fx-background-radius: 15px;
+    -fx-border-color: "C5D5F2";
+    -fx-border-width: 1.5px 1.5px 1.5px 1.5px;
+    -fx-border-radius: 14px;
+}
+
+.button
+{
+    -fx-background-radius: 9px;
+}
+
+.label{
+    -fx-font-size: 14;
+    -fx-font-family: "Times New Roman";
+}
+
+#addcompanysideap
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+}
+
+#addcompanyap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+
+#addcompanylabel
+{
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: "white";
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+}
+
+#button_add
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+
+}
+
+#button_add:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+
+
+#button_backToSignUp
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+#button_backToSignUp:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+#button_back
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+#button_back:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+#button_send_mail
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+#button_send_mail:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+
+#forgetpassap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+
+#adminloginap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+
+#button_login
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+#button_login:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+
+#button_submit
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+#button_submit:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+#button_logout
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+#button_logout:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+
+#button_add_company
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20;
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+#button_add_company:hover
+{
+    -fx-background-color:"#386fa3";
+}
+
+#button_backToFirstPage
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+#button_backToFirstPage:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+
+#button_forget_password
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 11;
+}
+#button_forget_password:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+#button_confirm_ver_code
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+#button_confirm_ver_code:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+
+#button_sign_up
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+#button_sign_up:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+
+#button_jobList
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: "white";
+}
+#button_jobList:hover
+{
+    -fx-background-color:"#386fa3";
+}
+
+#button_resetPassword
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: "white";
+}
+#button_resetPassword:hover
+{
+    -fx-background-color:"#386fa3";
+}
+
+#button_myProfile
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+#button_myProfile:hover
+{
+    -fx-background-color:"#386fa3";
+}
+#button_jobApplications
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+#button_jobApplications:hover
+{
+    -fx-background-color:"#386fa3";
+}
+#button_addJob
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+#button_addJob:hover
+{
+    -fx-background-color:"#386fa3";
+}
+
+#button_post_job
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+#button_post_job:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+#button_searchbypref
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20;
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+#button_searchbypref:hover
+{
+    -fx-background-color:"#386fa3";
+}
+#button_companies
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20;
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+#button_companies:hover
+{
+    -fx-background-color:"#386fa3";
+}
+
+#button_joboffers
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20;
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+#button_joboffers:hover
+{
+    -fx-background-color:"#386fa3";
+}
+#button_blogpost
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20;
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+#button_blogpost:hover
+{
+    -fx-background-color:"#386fa3";
+}
+#button_searchjob
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20;
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+#button_searchjob:hover
+{
+    -fx-background-color:"#386fa3";
+}
+#button_profile
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20;
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+#button_profile:hover
+{
+    -fx-background-color:"#386fa3";
+}

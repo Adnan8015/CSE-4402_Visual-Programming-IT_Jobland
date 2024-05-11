@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <?import javafx.scene.control.Button?>
+        <?import javafx.scene.control.ScrollPane?>
+        <?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pdfap" prefHeight="466.0" prefWidth="704.0" stylesheets="@css2.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login_signup.EmployeeUploadPDFController">
+<children>
+    <Button fx:id="button_back" layoutX="26.0" layoutY="397.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Back" />
+    <Button fx:id="button_uploadPDF" layoutX="523.0" layoutY="387.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="157.0" text="Upload PDF" textAlignment="CENTER" />
+    <ScrollPane fx:id="scrollpane_jobinfo" layoutX="23.0" layoutY="28.0" prefHeight="348.0" prefWidth="658.0" />
+</children>
+</AnchorPane>

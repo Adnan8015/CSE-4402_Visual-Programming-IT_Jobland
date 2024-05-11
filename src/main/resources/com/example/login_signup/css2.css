@@ -1,0 +1,149 @@
+#pdfap
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #7ca6e9);
+}
+#jobblogap
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+#jobpostcompanyap
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #7ca6e9);
+}
+
+#tv_jobtable
+{
+    -fx-background-color: linear-gradient(to bottom,#7ae3e7, #90c2ef);
+}
+#button_resetPassword
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: "white";
+}
+#button_resetPassword:hover
+{
+    -fx-background-color:"#386fa3";
+}
+#button_sign_up
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+#button_sign_up:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+
+#button_backToFirstPage
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+#button_backToFirstPage:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+
+#button_forget_password
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 11;
+}
+#button_forget_password:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+#button_logout
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+#button_logout:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+#button_login
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+#button_login:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+#button_backToSignUp
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+#button_backToSignUp:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+#button_back
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: "black";
+}
+#button_admin
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+    -fx-text-fill: "black";
+}
+#button_back:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+#button_uploadPDF
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: "black";
+}
+#button_uploadPDF:hover
+{
+    -fx-background-color:"#a0eff3";
+}
+
+.label{
+    -fx-font-size: 14;
+    -fx-font-family: "Times New Roman";
+}
+.button
+{
+    -fx-background-radius: 9px;
+}
+.button
+{
+    -fx-background-color: linear-gradient(to bottom,#073d70, #3cb3b9);
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20;
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+.button:hover
+{
+    -fx-background-color:"#386fa3";
+}
